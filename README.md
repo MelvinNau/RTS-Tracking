@@ -1,17 +1,14 @@
 # RTS Hackathon
-## Tracking face and autopilot for AW-HE2 Series camera
+## Tracking face and autopilot for AW-HN 40 Series camera
 
 ### Goal of the project
 The goal was to track the face of a person to adapt the vertical position of the camera during the non recorder sequences.
 
 ### Requirements to use
 * Python3   
-* Numpy   
- * `python3 -m pip install --user numpy scipy matplotlib ipython jupyter pandas sympy nose`
-* OpenCV
- * `pip install opencv-python`       
-* Requests
- * `python3 -m pip install`
+* Numpy `python3 -m pip install --user numpy scipy matplotlib ipython jupyter pandas sympy nose`    
+* OpenCV `pip install opencv-python`         
+* Requests `python3 -m pip install`     
 
 ### Utilisation in terminal
 * `python3 RTSHackaton.py` without argument use 100.100.100.100 address
